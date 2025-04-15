@@ -1,4 +1,4 @@
-# Instruction on |Running/Workin in the Projet
+# Instruction on Running/Working in the Projet
 ## Setting up the server (Node.js)
 ### Download Node.js ->
 1. Go to https://nodejs.org
@@ -29,4 +29,5 @@ It should display something like this ->
 ![image](https://github.com/user-attachments/assets/843a6544-0121-49dd-a960-0bfdab369a5a)
 
 ## Setting up the database  
-(In construction...)
+GO TO ->https://github.com/LeandroBakollari/web-project/blob/main/databaseSync.md  
+FOR MORE INFORMATION
