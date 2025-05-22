@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="/marketplace/css/profile.css" />
+</head>
+<body>
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="/marketplace/images/profile-picture.jpg" alt="Profile Picture" class="profile-image" />
+            <div class="profile-info">
+                <h1>Username</h1>
+                <div class="stats">
+                    <p>120 Followers</p>
+                    <p>100% positive feedback</p>
+                </div>
+                <div class="profile-links">
+                    <a href="#" class="profile-link">Share</a>
+                    <a href="#" class="profile-link">Save</a>
+                    <a href="#" class="profile-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+
+    <div class="tabs">
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('feedback')">Feedback</button>
+      <button onclick="showSection('listings')">Listings</button>
+    </div>
+
+    <div class="section" id="about">
+      <h2>About</h2>
+      <p>Bio: This is a short bio.</p>
+      <p>Location: Example City</p>
+      <p>Account Created: Jan 2022</p>
+    </div>
+
+    <div class="section hidden" id="feedback">
+      <h2>Feedback</h2>
+      <p>Positive Reviews: 30</p>
+      <p>Negative Reviews: 2</p>
+    <ul style="list-style-type: none; padding: 0;">
+      <li>
+        <div class="feedback-item">
+            <div class="feedback-header">
+              <strong>John Doe</strong> - <span class="feedback-time">2 hours ago</span>
+            </div>
+            <div class="feedback-content">
+              <span class="feedback-symbol positive">✔</span>
+              <span>Great seller, fast shipping!</span>
+            </div>
+        </div>
+      </li>
+      <li>
+        <div class="feedback-item">
+            <div class="feedback-header">
+              <strong>John Doe</strong> - <span class="feedback-time">2 hours ago</span>
+            </div>
+            <div class="feedback-content">
+              <span class="feedback-symbol positive">✔</span>
+              <span>Great seller, fast shipping!</span>
+            </div>
+        </div>
+        <li>
+        <div class="feedback-item">
+            <div class="feedback-header">
+              <strong>John Doe</strong> - <span class="feedback-time">2 hours ago</span>
+            </div>
+            <div class="feedback-content">
+              <span class="feedback-symbol positive">✔</span>
+              <span>Great seller, fast shipping!</span>
+            </div>
+        </div>
+        </li>
+    </ul>
+
+    <div class="section hidden" id="listings">
+      <h2>Listings</h2>
+      <ul>
+        <li>Item 1 - $10</li>
+        <li>Item 2 - $25</li>
+        <li>Item 3 - $15</li>
+      </ul>
+      <button id="add-listing">+ Add Listing</button>
+    </div>
+  </div>
+
+
+    </div>
+  <script src="/marketplace/js/profile.js"></script>
+</body>
+</html>

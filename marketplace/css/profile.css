@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #ccc5b9;
+  }
+  
+  .profile-container {
+    background: #fffcf2;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .general-info {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .tabs {
+    margin: 20px 0;
+  }
+  
+  .tabs button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .tabs button:hover {
+    background: #ddd;
+  }
+  
+  .section {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+.feedback-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-header {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.feedback-header strong {
+    color: #333;
+}
+
+.feedback-time {
+    font-size: 12px;
+    color: #999;
+}
+
+.feedback-content {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #444;
+}
+
+.feedback-symbol {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.feedback-symbol.positive {
+    color: #4caf50;
+}
+
+.feedback-symbol.negative {
+    color: #f44336;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.profile-info .stats {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    gap: 15px;
+}
+
+.profile-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.profile-link:hover {
+    color: #0056b3;
+}
