@@ -7,7 +7,7 @@ body {
   .profile-container {
     background: #fffcf2;
     padding: 20px;
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,13 +27,13 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    background: #eee;
+    background: #ccc5b9;
     border-radius: 5px;
     transition: background 0.3s;
   }
   
   .tabs button:hover {
-    background: #ddd;
+    background: #eb5e28;
   }
   
   .section {
@@ -54,12 +54,12 @@ body {
 
 .feedback-header {
     font-size: 14px;
-    color: #555;
+    color: #252422;
     margin-bottom: 8px;
 }
 
 .feedback-header strong {
-    color: #333;
+    color: #252422;
 }
 
 .feedback-time {
@@ -71,7 +71,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 14px;
-    color: #444;
+    color: #252422;
 }
 
 .feedback-symbol {
@@ -128,11 +128,11 @@ body {
 
 .profile-link {
     text-decoration: none;
-    color: #007bff;
+    color: #403d39;
     font-size: 14px;
     transition: color 0.3s;
 }
 
 .profile-link:hover {
-    color: #0056b3;
+    color: #eb5e28;
 }
